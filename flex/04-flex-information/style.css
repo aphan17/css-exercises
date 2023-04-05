@@ -8,6 +8,12 @@ img {
   height: 100px;
 }
 
+/* text-align could be moved to body instead of individual */
+.text {
+  text-align: center;
+}
+
+/* title only needed margin-bottom */
 .title {
   font-size: 36px;
   font-weight: 900;
@@ -16,21 +22,22 @@ img {
   padding-bottom: 32px;
 }
 
+/* no need for align-items, items already centered */
 .plants {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
   gap: 52px;
 }
 
-.plants .img {
+/* only needed max-width instead of all of the bottom */
+.plant-ind {
+  width: 200px;
   display: flex;
-}
-
-.plants .text {
-  display: flex;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+
 }
 
 /* do not edit this footer */
