@@ -5,6 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  flex-direction: column;
 }
 
 img {
@@ -47,7 +48,13 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  padding: 4px;
+  background-color: #eee;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 99%;
+
 }
 
 .left-links {
